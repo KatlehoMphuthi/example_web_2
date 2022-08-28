@@ -50,4 +50,4 @@ workflows:
                         - node/test:
                             post-steps:
                                 - codecov/upload:
-                                  file: /home/circleci/project/client/coverage/
+                                  file: /home/circleci/project/client/coverage/coverage-final.json
