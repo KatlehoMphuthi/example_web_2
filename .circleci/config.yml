@@ -34,7 +34,7 @@ jobs:
           command: npm test -- --coverage
     
       - codecov/upload:
-          file: -f coverage/*.json
+          file: coverage/*.json
       
 
 workflows:
