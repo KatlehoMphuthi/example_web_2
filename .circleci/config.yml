@@ -49,4 +49,5 @@ workflows:
                     jobs:
                         - node/test:
                             post-steps:
-                                - codecov/upload
+                                - codecov/upload:
+                                  file: {{./client/coverage}}
