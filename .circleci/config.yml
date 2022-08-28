@@ -50,4 +50,4 @@ workflows:
                         - node/test:
                             post-steps:
                                 - codecov/upload:
-                                  file: {{./client/coverage}}
+                                  file: {{ -f coverage/*.json}}
